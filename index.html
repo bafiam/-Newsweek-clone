@@ -1,107 +1,545 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://g.newsweek.com/themes/newsweek/favicons/favicon-96x96.png"
+    />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" type="image/png" href="https://g.newsweek.com/themes/newsweek/favicons/favicon-96x96.png">
+    <!-- Bootstrap CSS onine cdn-->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 
-  <!-- Bootstrap CSS onine cdn-->
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <!-- local bootstrap for development-->
+    <link rel="stylesheet" href="css/bootstrap-4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/custom.css" />
 
-  <!-- local bootstrap for development-->
-  <link rel="stylesheet" href="css/bootstrap-4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/custom.css">
+    <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
+  </head>
 
-  <title>Newsweek - News, Analysis, Politics, Business, Technology</title>
-</head>
-
-<body>
-  <!-- HEADER-1 small screen-->
-  <header>
-      <nav class="align-content-center navbar  container-fluid
-      text-white navbar-dark nav-1">
-      <div class="row w-100" >
-       <a class="navbar-brand col-5 p-0 pl-3 " href="#">
-         <img src="./imgs/nav_logo.svg"   alt="logo" class="small-logo">
-       </a>
-       <div class="col pr-0 font-weight-bolder">
-         <div class="row justify-content-end pr-0">
-           <a class=" text-white px-2 pt-2 text-decoration-none user-action" href="#">SIGN IN</a>
-           <a class=" text-danger px-2 pt-2 text-decoration-none user-action bg-light sub-img" href="#" >SUBSCRIBE</a>
-           <a class="text-dark text-decoration-none">
-              <img src="./imgs/ic_navbar_menu.svg" alt="logo" class="menu-icon"></a>
-         </div>
-       </div>
-      </div>
-     </nav>
-  </header>
-  <!-- HEADER-2 bigger screens-->
-      <div class="d-none d-lg-block header-2-div" >
-          <header class="container-fluid header-2">
-            <div class="row justify-content-between align-items-end pb-3 px-3 pt-1">
-              <div class="text-white">Tue, Nov 19, 2019</div>
-              <a class="navbar-brand small-logo" href="#">
-                <img src="./imgs/nav_logo_small.svg" alt="logo" class="small-logo">
-              </a>
-              <div>
-                  <a class=" text-white  text-decoration-none pr-2 font-weight-bolder" href="#">SIGN IN</a>
-                  <a class=" text-danger  text-decoration-none font-weight-bolder p-2 bg-white sub-img " href="#" >SUBSCRIBE</a>
+  <body>
+    <!-- HEADER-1 small screen-->
+    <div class=" d-lg-none d-block sticky-top">
+      <header>
+        <nav
+          class="align-content-center navbar  container-fluid
+      text-white navbar-dark nav-1"
+        >
+          <div class="row w-100">
+            <a class="navbar-brand col-5 p-0 pl-3 " href="#">
+              <img src="./imgs/nav_logo.svg" alt="logo" class="small-logo" />
+            </a>
+            <div class="col pr-0 font-weight-bolder">
+              <div class="row justify-content-end pr-0">
+                <a
+                  class=" text-white px-2 pt-2 text-decoration-none user-action"
+                  href="#"
+                  >SIGN IN</a
+                >
+                <a
+                  class=" text-danger px-2 pt-2 text-decoration-none user-action bg-light sub-img"
+                  href="#"
+                  >SUBSCRIBE</a
+                >
+                <a class="text-dark text-decoration-none">
+                  <img
+                    src="./imgs/ic_navbar_menu.svg"
+                    alt="logo"
+                    class="menu-icon"
+                /></a>
               </div>
             </div>
-            <nav class="row navbar navbar-expand bg-white nav-2">
-              <ul class="navbar-nav container-fluid nav-ul w-100">
-                <li class="nav-item border-right border-dark">
-                  <a class="nav-link text-dark font-weight-bolder" href="#">U.S.</a>
-                </li>
-                <li class="nav-item border-right border-dark">
-                  <a class="nav-link text-dark font-weight-bolder" href="#">World</a>
-                </li>
-                <li class="nav-item border-right border-dark">
-                  <a class="nav-link text-dark font-weight-bolder" href="#">Business</a>
-                </li>
-                <li class="nav-item border-right border-dark nav-li-long">
-                  <a class="nav-link text-dark font-weight-bolder"  href="#">Tech & Science</a>
-                </li>
-                <li class="nav-item border-right border-dark">
-                  <a class="nav-link text-dark font-weight-bolder" href="#">Culture</a>
-                </li>
-                <li class="nav-item border-right border-dark">
-                    <a class="nav-link text-dark font-weight-bolder" href="#">Newsgeek</a>
-                  </li>
-                <li class="nav-item border-right border-dark">
-                  <a class="nav-link text-dark font-weight-bolder" href="#">Sports</a>
-                </li>
-                <li class="nav-item border-right border-dark">
-                  <a class="nav-link text-dark font-weight-bolder" href="#">Health</a>
-                </li>
-                <li class="nav-item border-right border-dark">
-                  <a class="nav-link text-dark font-weight-bolder" href="#">Opinion</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark font-weight-bolder" href="#">Vantage</a>
-                </li>   
+          </div>
+        </nav>
+      </header>
+    </div>
+    <!-- HEADER-2 bigger screens-->
+    <div class="d-none d-lg-block header-2-div">
+      <header class="container-fluid header-2">
+        <div class="row justify-content-between align-items-end pb-3 px-3 pt-1">
+          <div class="text-white">Tue, Nov 19, 2019</div>
+          <a class="navbar-brand small-logo" href="#">
+            <img
+              src="./imgs/nav_logo_small.svg"
+              alt="logo"
+              class="small-logo"
+            />
+          </a>
+          <div>
+            <a
+              class=" text-white  text-decoration-none pr-2 font-weight-bolder"
+              href="#"
+              >SIGN IN</a
+            >
+            <a
+              class=" text-danger  text-decoration-none font-weight-bolder p-2 bg-white sub-img "
+              href="#"
+              >SUBSCRIBE</a
+            >
+          </div>
+        </div>
+        <nav class="row navbar navbar-expand bg-white nav-2">
+          <ul class="navbar-nav container-fluid nav-ul w-100">
+            <li class="nav-item border-right border-dark">
+              <a class="nav-link text-dark font-weight-bolder" href="#">U.S.</a>
+            </li>
+            <li class="nav-item border-right border-dark">
+              <a class="nav-link text-dark font-weight-bolder" href="#"
+                >World</a
+              >
+            </li>
+            <li class="nav-item border-right border-dark">
+              <a class="nav-link text-dark font-weight-bolder" href="#"
+                >Business</a
+              >
+            </li>
+            <li class="nav-item border-right border-dark nav-li-long">
+              <a class="nav-link text-dark font-weight-bolder" href="#"
+                >Tech & Science</a
+              >
+            </li>
+            <li class="nav-item border-right border-dark">
+              <a class="nav-link text-dark font-weight-bolder" href="#"
+                >Culture</a
+              >
+            </li>
+            <li class="nav-item border-right border-dark">
+              <a class="nav-link text-dark font-weight-bolder" href="#"
+                >Newsgeek</a
+              >
+            </li>
+            <li class="nav-item border-right border-dark">
+              <a class="nav-link text-dark font-weight-bolder" href="#"
+                >Sports</a
+              >
+            </li>
+            <li class="nav-item border-right border-dark">
+              <a class="nav-link text-dark font-weight-bolder" href="#"
+                >Health</a
+              >
+            </li>
+            <li class="nav-item border-right border-dark">
+              <a class="nav-link text-dark font-weight-bolder" href="#"
+                >Opinion</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark font-weight-bolder" href="#"
+                >Vantage</a
+              >
+            </li>
+            <li>
+              <form class="form-inline w-50" action="#">
+                <input
+                  class="form-control w-100 search-icon"
+                  type="text"
+                  placeholder="Search..."
+                />
+              </form>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <!-- main section -->
+    <main class="mt-4">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- top-story -->
+          <div class="col-md-6 w-100">
+            <div class="block-title text-uppercase pb-2 font-weight-bold">
+              Top Story
+            </div>
+            <article>
+              <div class="img-wrap">
+                <div>
+                  <a
+                    href="#"
+                    class="category font-weight-bold text-uppercase text-decoration-none"
+                    >U.S.</a
+                  >
+                </div>
+                <a class="pb-4 text-decoration-none" href="#">
+                  <img
+                    src="https://d.newsweek.com/en/full/1547432/house-intelligence-committee-trump-impeachment-public-hearings.jpg?w=591&h=364&f=49fc508de45e63001c4ca2860aaa8313"
+                    alt="top-story"
+                    class="image w-100"
+                  />
+                </a>
+              </div>
+              <h1 class="h2 ">
+                <a href="#" class="font-weight-bolder black-color h2-text ">
+                  Impeachment Hearings Day 5: Live Stream, What to Know
+                </a>
+              </h1>
+              <div class="summary">
+                Former National Security Council official Fiona Hill and State
+                Department official David Holmes will testify before the House
+                Intelligence Committee on Thursday.
+              </div>
+              <ul class="related font-weight-bold list-unstyled">
                 <li>
-                  <form class="form-inline " action="#">
-                    <input class="form-control w-50 search-icon"  type="text" placeholder="Search...">
-                  </form>
-                </li> 
+                  <a href="#" class="text-decoration-none black-color"
+                    >Five Things to Know About David Holmes, Diplomat Who Heard
+                    Trump Ask About 'Investigations'</a
+                  >
+                </li>
               </ul>
-            </nav>
-          </header>
-        </div> 
+            </article>
+          </div>
+          <!-- more stories -->
+          <div class="col-md-6 w-100">
+            <div
+              class="block-title text-uppercase pb-2 font-weight-bold border-bottom border-black"
+            >
+              More stories
+            </div>
+            <div class="row mt-3 py-3 border-bottom border-black">
+              <div class="col w-100 ">
+                <img
+                  src="https://d.newsweek.com/en/full/1547663/whats-needed-trumps-signature-before-midnight.jpg?w=135&h=90&f=59317ba18d95758bd92613af1c36169d"
+                  alt="What's Needed: Trump's Signature Before Midnight"
+                  class="w-100 "
+                />
+              </div>
+              <div class="col">
+                <h1 class="h2 ">
+                  <a href="#" class="font-weight-bolder black-color h2-text ">
+                    Here's What Needs to Happen to Avoid a Government Shutdown
+                  </a>
+                </h1>
+                <div class="summary">
+                  The Senate is expected to pass the short-term funding bill,
+                  known as a continuing resolution, but President Donald Trump
+                  still has to sign it.
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 py-3 border-bottom border-black">
+              <div class="col w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1547609/mike-pence.jpg?w=135&amp;h=90&amp;f=f194014f0f601f0bf533a34ebf759396"
+                  alt="Mike Pence"
+                  class=" w-100"
+                />
+              </div>
+              <div class="col">
+                <h1 class="h2 ">
+                  <a href="#" class="font-weight-bolder black-color h2-text ">
+                    Pence Disputes Sondland's Testimony, Says He Does Not
+                    Remember 'Discussion'
+                  </a>
+                </h1>
+                <div class="summary">
+                  "I had no recollection of any discussion," Vice President Mike
+                  Pence said.
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 py-3 border-bottom border-black">
+              <div class="col w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1547663/whats-needed-trumps-signature-before-midnight.jpg?w=135&h=90&f=59317ba18d95758bd92613af1c36169d"
+                  alt="What's Needed: Trump's Signature Before Midnight"
+                  class=" w-100"
+                />
+              </div>
+              <div class="col">
+                <h1 class="h2 ">
+                  <a href="#" class="font-weight-bolder black-color h2-text ">
+                    Severe Storm Forecast for Central U.S. May Cause
+                    Thanksgiving Travel Chaos
+                  </a>
+                </h1>
+                <div class="summary">
+                  Severe storm systems heading to parts of the Central states,
+                  and potentially spreading south and east, are predicted to
+                  cause major travel disruptions on the busiest day of the year
+                  for Thanksgiving holiday commuters.
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 py-3 border-bottom border-black">
+              <div class="col w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1547629/william-lai-taiwan-independence-china-elections.jpg?w=135&h=90&f=7723c0a950b0204d066520f30aea2dbb"
+                  alt="What's Needed: Trump's Signature Before Midnight"
+                  class=" w-100"
+                />
+              </div>
+              <div class="col">
+                <h1 class="h2 ">
+                  <a href="#" class="font-weight-bolder black-color h2-text ">
+                    China Threatens 'Profound Disaster' for Taiwan After
+                    Independence Comments
+                  </a>
+                </h1>
+                <div class="summary">
+                  Beijing considers the island nation to be a part of China and
+                  has long vowed to bring it under the control of the Communist
+                  Party.
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 py-3 border-bottom border-black">
+              <div class="col w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1547636/berkeley-protest.png?w=135&h=90&f=2e529b3899af809a23db7d5307adafda"
+                  alt="What's Needed: Trump's Signature Before Midnight"
+                  class=" w-100"
+                />
+              </div>
+              <div class="col">
+                <h1 class="h2 ">
+                  <a href="#" class="font-weight-bolder black-color h2-text ">
+                    Protesters Arrested at Berkeley in Rally Against Ann Coulter
+                    Speech
+                  </a>
+                </h1>
+                <div class="summary">
+                  Protesters also shouted the slogan "Trump, Pence out now,"
+                  organizer Atlas Winfrey said.
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 py-3 border-bottom border-black">
+              <div class="col w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1547608/hong-kong-us-senate-trade-deal-china.jpg?w=135&h=90&f=3b9df2a61afb148ba62a39cbf07f11e2"
+                  alt="What's Needed: Trump's Signature Before Midnight"
+                  class=" w-100"
+                />
+              </div>
+              <div class="col">
+                <h1 class="h2 ">
+                  <a href="#" class="font-weight-bolder black-color h2-text ">
+                    Trump Signing Hong Kong Bill Could Kill China Trade Deal,
+                    Analysts Warn
+                  </a>
+                </h1>
+                <div class="summary">
+                  The new legislation—which would allow the U.S. to sanction
+                  Chinese officials who abuse human rights in Hong Kong—has been
+                  passed by the House and the Senate and now awaits the
+                  president's signature.
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 py-3 border-bottom border-black">
+              <div class="col w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1547582/prince-andrew-duke-york.jpg?w=135&h=90&f=b4c6711fc3f01935961eb3f384afb1f1"
+                  alt="What's Needed: Trump's Signature Before Midnight"
+                  class=" w-100"
+                />
+              </div>
+              <div class="col">
+                <h1 class="h2 ">
+                  <a href="#" class="font-weight-bolder black-color h2-text ">
+                    Prince Andrew Must Cooperate with FBI, Says Epstein Victim's
+                    Lawyer
+                  </a>
+                </h1>
+                <div class="summary">
+                  The Duke of York has stepped down from his royal duties after
+                  his interview with the BBC about his friendship with the
+                  convicted sex offender who was found dead in his cell.
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 py-3 border-bottom border-black">
+              <div class="col w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1547587/joe-biden.jpg?w=135&h=90&f=1ad72c2b6272b6cb87485807af34c602"
+                  alt="What's Needed: Trump's Signature Before Midnight"
+                  class=" w-100"
+                />
+              </div>
+              <div class="col">
+                <h1 class="h2 ">
+                  <a href="#" class="font-weight-bolder black-color h2-text ">
+                    Biden's Debate Performance Compared to Mr. Magoo by Obama's
+                    Ex-Aide
+                  </a>
+                </h1>
+                <div class="summary">
+                  The former vice president has failed to impress in the debates
+                  thus far, with a former Obama aide commenting that Joe Biden
+                  "kind of bumps along."
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 py-3 border-bottom border-black">
+              <div class="col w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1547595/exhaust-fumes-truck.jpg?w=135&h=90&f=43b93407fdad765137cb1b40356953d5"
+                  alt="What's Needed: Trump's Signature Before Midnight"
+                  class=" w-100"
+                />
+              </div>
+              <div class="col">
+                <h1 class="h2 ">
+                  <a href="#" class="font-weight-bolder black-color h2-text ">
+                    200,000 Americans Die Every Year From Air Pollution That
+                    Meets EPA Standard
+                  </a>
+                </h1>
+                <div class="summary">
+                  New research suggests current air pollution standards are
+                  failing to protect human health and life.
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 py-3 border-bottom border-black">
+              <div class="col w-100">
+                <img
+                  src="https://d.newsweek.com/en/full/1547299/donald-trump-warning-book-anonymous-nicknames-twitter.jpg?w=135&h=90&f=4c3f574d5e0fbab1f64cf27929e7e4ca"
+                  alt="What's Needed: Trump's Signature Before Midnight"
+                  class=" w-100"
+                />
+              </div>
+              <div class="col">
+                <h1 class="h2 ">
+                  <a href="#" class="font-weight-bolder black-color h2-text ">
+                    Trump Has Secret R-Rate Nicknames for People He Doesn't
+                    Like: Book
+                  </a>
+                </h1>
+                <div class="summary">
+                  The claim is made in "A Warning," the book exposé by an
+                  anonymous senior official in the Trump administration.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- culture and travels -->
+          <div class="col-md-6 w-100 culture-bg">
+            <div class="block-title text-uppercase pb-2 font-weight-bold">
+              CULTURE & TRAVEL
+            </div>
+            <div class="culture-items">
+              <div class="culture-item">
+                <div class="image w-100">
+                  <a href="#" class=" text-decoration-none">
+                    <img
+                      alt="Prince On Stage"
+                      class="w-100"
+                      src="https://d.newsweek.com/en/full/1545841/prince-stage.jpg?w=397&amp;h=265&amp;f=e42074a203de03aa881aa7dcd3443ff6"
+                    />
+                  </a>
+                </div>
+                <div class="info mt-3">
+                  <div class="title">
+                    <a href="#" class=" text-decoration-none title dark-onhover"
+                      >Paisley Park Is in Your Heart: A Visit to Prince's
+                      Magical Minneapolis King</a
+                    >
+                  </div>
+                  <div class="summary">
+                    With Prince's memoir just out and a remastered 1999 on the
+                    way, it's the perfect time to do a purple-colored tour of
+                    Minneapolis.
+                  </div>
+                  <div class="tags">
+                    <a href="#" class="active text-decoration-none">Prince</a>
+                  </div>
+                </div>
+              </div>
+              <div class="culture-item">
+                <div class="image">
+                  <a href="#" class=" text-decoration-none">
+                    <img
+                      alt="Red Planet Jordan "
+                      class="w-100"
+                      src="https://d.newsweek.com/en/full/1541416/red-planet-jordan.jpg?w=397&amp;h=265&amp;f=295430ed3020a3863f4a02519a3241fc"
+                    />
+                  </a>
+                </div>
+                <div class="info">
+                  <div class="title">
+                    <a href="#" class=" text-decoration-none title dark-onhover">Welcome to the Red Planet: Wadi Rum, Jordan</a>
+                  </div>
+                  <div class="summary">
+                    An oasis of peace in a turbulent part of the world filled
+                    with biblical history and dramatic desert wonders, Jordan is
+                    about as otherworldly as you can get here on Earth.
+                  </div>
+                  <div class="tags">
+                    <a href="#" class="active text-decoration-none">Travel</a>
+                  </div>
+                </div>
+              </div>
+              <div class="culture-item">
+                <div class="image">
+                  <a href="#" class=" text-decoration-none">
+                    <img
+                      alt="Tourists crossing Piazza San Marco"
+                      class="w-100"
+                      src="https://d.newsweek.com/en/full/1544918/tourists-crossing-piazza-san-marco.jpg?w=397&amp;h=265&amp;f=15e2106d6c35d8e799f9a17c9b41241d"
+                    />
+                  </a>
+                </div>
+                <div class="info">
+                  <div class="title">
+                    <a href="#" class=" text-decoration-none title dark-onhover"
+                      >Is It Safe to Travel to Venice Amid Historic Flooding in
+                      the City?</a
+                    >
+                  </div>
+                  <div class="summary">
+                    The record flooding is making it difficult to navigate the
+                    coastal city, and many tourist hot spots are currently
+                    underwater.
+                  </div>
+                  <div class="tags">
+                    <a href="#" class="active text-decoration-none">Venice</a>
+                  </div>
+                </div>
+              </div>
+              <div class="culture-item">
+                <div class="image">
+                  <a href="#" class=" text-decoration-none">
+                    <img
+                      alt="Prague bridge"
+                      class="w-100"
+                      src="https://d.newsweek.com/en/full/1546382/prague-bridge.jpg?w=397&amp;h=265&amp;f=ae6034c6e0201c2478f32f3ec2be76d6"
+                    />
+                  </a>
+                </div>
+                <div class="info">
+                  <div class="title">
+                    <a href="#" class=" text-decoration-none title dark-onhover">Velvet Prague: 30 Years After the Revolution</a>
+                  </div>
+                  <div class="summary">
+                    The peaceful revolution that took place in Prague is 30
+                    years old and visitors can honor it by visiting sites
+                    associated with the world-changing event.
+                  </div>
+                  <div class="tags">
+                    <a href="#" class="active text-decoration-none">Prague</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
-  <!-- local script for development-->
-  <script src="css/bootstrap-4.3.1/js/jquery-3.3.1.slim.min.js"></script>
-  <script src="css/bootstrap-4.3.1/js/popper.min.js"></script>
-  <script src="css/bootstrap-4.3.1/js/bootstrap.js"></script>
-
-</body>
-
+    <!-- local script for development-->
+    <script src="css/bootstrap-4.3.1/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="css/bootstrap-4.3.1/js/popper.min.js"></script>
+    <script src="css/bootstrap-4.3.1/js/bootstrap.js"></script>
+  </body>
 </html>
