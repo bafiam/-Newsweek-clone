@@ -4,6 +4,12 @@
 /* Lora Serif */
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
+/* genericons */
+@font-face {
+  font-family: "Genericons";
+  src: url("./Genericons.woff") format("woff");
+}
+
 /* header-1 styling */
 header {
   width: 100%;
@@ -256,4 +262,129 @@ body {
 .h5 {
   font-size: 16px;
   line-height: 16px;
+}
+
+.count-link {
+  width: 70px;
+  height: 52px;
+  font-size: 20px;
+  line-height: 48px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
+}
+
+.fn-image {
+  position: relative;
+  padding-bottom: 30px;
+  left: 70px;
+}
+
+.mag-thumb {
+  width: 170px;
+  height: 228px;
+}
+
+.current {
+  position: absolute;
+  top: 13px;
+  left: 80px;
+}
+
+.f1 h3 {
+  font-size: 20px;
+}
+
+.f1 p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.news-image {
+  width: 160px;
+}
+
+.news-letter-image {
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png)no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+  display: block;
+  height: 160px;
+}
+
+.f1-info {
+  border: 1px solid #ebebeb;
+  padding: 20px;
+}
+
+.page-footer {
+  border-top: 2px solid #f4f5f6;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.brand svg {
+  display: block;
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  fill: #f72210;
+}
+
+.socials {
+  width: 180px;
+  color: #666;
+}
+
+.genericon {
+  font-size: 23px;
+  vertical-align: top;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  color: #666;
+  font-family: Genericons, sans-serif;
+  padding: 0 5px;
+}
+
+.genericon-facebook::before {
+  content: "\f203";
+}
+
+.genericon-twitter::before {
+  content: "\f202";
+}
+
+.genericon-instagram::before {
+  content: "\f215";
+}
+
+.genericon-tumblr::before {
+  content: "\f214";
+}
+
+.genericon-linkedin::before {
+  content: "\f207";
+}
+
+.footer-list > li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(102, 102, 102);
+}
+
+.page-footer {
+  border-top: 2px solid #f4f5f6;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.upper-footer,
+.lower-footer {
+  padding-left: 30px;
 }
