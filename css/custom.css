@@ -127,6 +127,10 @@ body {
   .news-height {
     height: 300px;
   }
+
+  .seventh-section-container {
+    width: 200px;
+  }
 }
 
 /* main styling */
@@ -145,7 +149,7 @@ body {
 .category {
   display: block;
   font-family: "Roboto Condensed", sans-serif;
-  font: 17px;
+  font-size: 17px;
   color: #f72210;
   padding: 8px 19px 9px;
   background-color: rgba(255, 255, 255, 0.9);
@@ -160,7 +164,7 @@ body {
   display: block;
 }
 
-.h2 {
+.H-2 {
   font-size: 17px;
   line-height: 1.1;
 }
@@ -179,8 +183,15 @@ body {
   margin-top: 16px;
 }
 
-.related li a:hover,
-.info a:hover {
+.culture-item .tags a {
+  display: inline-block;
+  background-color: #c2d4d7;
+  padding: 0 6px;
+  margin: 0 6px;
+}
+
+.info a:hover,
+.related li a:hover {
   color: red;
 }
 
@@ -219,13 +230,6 @@ body {
   line-height: 20px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #272727;
-}
-
-.culture-item .tags a {
-  display: inline-block;
-  background-color: #c2d4d7;
-  padding: 0 6px;
-  margin: 0 6px;
 }
 
 .image-size {
@@ -386,13 +390,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   color: rgb(102, 102, 102);
-}
-
-.page-footer {
-  border-top: 2px solid #f4f5f6;
-  background-color: white;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .upper-footer,

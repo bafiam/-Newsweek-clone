@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/bafiam/-Newsweek-clone/issues"
   },
-  "homepage": "https://github.com/bafiam/-Newsweek-clone#readme"
+  "homepage": "https://github.com/bafiam/-Newsweek-clone#readme",
+  "devDependencies": {
+    "stylelint": "^12.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
 }
