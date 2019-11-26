@@ -19,7 +19,7 @@ This project consists of building a clone of the news site [Newsweek[](https://w
 
 ## Github Pages Link
 
-in development
+<>
 
 ## License
 
