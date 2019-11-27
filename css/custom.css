@@ -15,6 +15,10 @@ header {
   width: 100%;
 }
 
+html {
+  overflow-x: auto;
+}
+
 h1,
 h2,
 h3,
@@ -78,8 +82,6 @@ body {
 
 .header-2 {
   background-color: rgb(247, 34, 16);
-  width: 100%;
-  margin: 0 auto;
 }
 
 .nav-2-ul {
