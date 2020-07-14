@@ -1,6 +1,10 @@
 # Newsweek Website clone Using Bootstrap
 
-This project consists of building a clone of the news site [Newsweek[](https://www.newsweek.com/).com using the Bootstrap framework.
+This project consists of building a clone of the news site [Newsweek](https://www.newsweek.com/)using the Bootstrap framework.
+
+## Screenshots
+
+![screenshot](newsweek-bootstrap.png)
 
 ## Project Description
 
@@ -8,18 +12,20 @@ This project consists of building a clone of the news site [Newsweek[](https://w
 
 ## Prerequisites
 
+- HTML5
+- CSS
+- Bootstrap
+- Javascript
+
+## Run Locally
+
 1. Clone the project- git clone <https://github.com/bafiam/-Newsweek-clone.git>
 2. Cd -Newsweek-clone
 3. Run index.html on your browser
 
-## Built With
-
-1. HTML5
-2. CSS3
-
 ## Github Pages Link
 
-<https://bafiam.github.io/-Newsweek-clone/>
+[Live link](https://bafiam.github.io/-Newsweek-clone)
 
 ## License
 
